@@ -46,7 +46,7 @@ const services = [
     icon: web,
   },
   {
-    title: 'React Native Developer',
+    title: 'Swift Developer',
     icon: mobile,
   },
   {
@@ -54,7 +54,7 @@ const services = [
     icon: backend,
   },
   {
-    title: 'Content Creator',
+    title: 'Student',
     icon: creator,
   },
 ];
@@ -73,16 +73,8 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: 'TypeScript',
-    icon: typescript,
-  },
-  {
     name: 'React JS',
     icon: reactjs,
-  },
-  {
-    name: 'Redux Toolkit',
-    icon: redux,
   },
   {
     name: 'Tailwind CSS',
@@ -104,67 +96,59 @@ const technologies = [
     name: 'git',
     icon: git,
   },
-  {
-    name: 'figma',
-    icon: figma,
-  },
-  {
-    name: 'docker',
-    icon: docker,
-  },
 ];
 
 const experiences = [
   {
-    title: 'React.js Developer',
-    company_name: 'Starbucks',
+    title: 'Owner',
+    company_name: 'ResurrecTech',
     icon: starbucks,
-    iconBg: '#383E56',
-    date: 'March 2020 - April 2021',
+    iconBg: '',
+    date: 'March 2023 - Current',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
+      '.',
+      '.',
+      '.',
+      '.',
     ],
   },
   {
-    title: 'React Native Developer',
-    company_name: 'Tesla',
+    title: 'Senior Technician',
+    company_name: 'Techy',
     icon: tesla,
     iconBg: '#E6DEDD',
-    date: 'Jan 2021 - Feb 2022',
+    date: 'August 2022 - Current',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
+      '.',
+      '.',
+      '.',
+      '.',
     ],
   },
   {
-    title: 'Web Developer',
-    company_name: 'Shopify',
+    title: 'Technician',
+    company_name: 'uBreakiFix',
     icon: shopify,
-    iconBg: '#383E56',
-    date: 'Jan 2022 - Jan 2023',
+    iconBg: '',
+    date: 'June 2020 - July 2022',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
+      '.',
+      '.',
+      '.',
+      '.',
     ],
   },
   {
-    title: 'Full stack Developer',
-    company_name: 'Meta',
+    title: '',
+    company_name: '',
     icon: meta,
-    iconBg: '#E6DEDD',
-    date: 'Jan 2023 - Present',
+    iconBg: '',
+    date: '',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
+      '.',
+      '.',
+      '.',
+      '.',
     ],
   },
 ];
@@ -195,9 +179,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: 'Car Rent',
+    name: 'Libster',
     description:
-      'Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.',
+      '.',
     tags: [
       {
         name: 'react',
