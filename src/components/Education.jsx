@@ -33,7 +33,7 @@ const EducationCard = ({index, name, degree, date, location, gpa, image}) => (
   </motion.div>
 )
 
-const Feedbacks = () => {
+const Education = () => {
   return (
     <div className='mt-12 bg-black-100 rounded-[20px]'>
       <div className={`${styles.padding} bg-tertiary rounded-2xl min-h-[300px]`}>
@@ -55,4 +55,4 @@ const Feedbacks = () => {
   )
 }
 
-export default SectionWrapper(Feedbacks, 'feedback');
+export default SectionWrapper(Education, 'education');
