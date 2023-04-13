@@ -19,6 +19,7 @@ import {
   threejs,
   personalpage,
   minesweeper,
+  libster,
   fau
 } from '../assets';
 
@@ -170,7 +171,7 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: '',
+    image: libster,
     source_code_link: 'https://github.com/Grant626/Libster',
   },
   {

@@ -26,6 +26,7 @@ import restech from './company/restech.png';
 
 import personalpage from './personalpage.png';
 import minesweeper from './minesweeper.png'; 
+import libster from './libster.png';
 
 import fau from './fau.png';
 
@@ -55,5 +56,6 @@ export {
   restech,
   personalpage,
   minesweeper,
+  libster,
   fau
 };
