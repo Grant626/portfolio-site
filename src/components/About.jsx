@@ -40,7 +40,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I am a skilled computer science student specializing in full-stack development...
+        I am a skilled computer science student specializing in full-stack development. I have worked both individually and with teams to create full-stack applications on the web and iOS. I mostly have experience with JavaScript and Swift, and leverage tools such as Node.js, React.js, and MongoDB. Outside of this, I also provide IT support services and tech repairs to clients through my own professional business.
       </motion.p>
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (

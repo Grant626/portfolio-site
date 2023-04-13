@@ -67,7 +67,7 @@ const Works = () => {
           variants={fadeIn('', '', 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
-          --Projects description--
+          Here are some of the projects I have worked on to showcase my skills and experience. Each has a brief description with links to the repositories as well. These reflect my ability to work with different technologies and manage projects efficiently.
         </motion.p>
       </div>
       <div className='mt-20 flex flex-wrap gap-7'>
