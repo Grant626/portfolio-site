@@ -24,7 +24,7 @@ import ubif from './company/ubif.png';
 import techy from './company/techy.png';
 import restech from './company/restech.png';
 
-import personalpage from './personalpage.PNG';
+import personalpage from './personalpage.png';
 import minesweeper from './minesweeper.png'; 
 import libster from './libster.png';
 
