@@ -5,7 +5,6 @@ import { styles } from '../styles';
 import { services } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
 import { SectionWrapper } from '../hoc';
-import StarWrapper from '../hoc/SectionWrapper';
 
 const ServiceCard = ({index, title, icon}) => {
   return(
