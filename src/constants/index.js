@@ -18,9 +18,9 @@ import {
   restech,
   threejs,
   personalpage,
-  minesweeper,
-  libster,
-  fau
+  robot,
+  fau,
+  natours,
 } from '../assets';
 
 export const navLinks = [
@@ -48,15 +48,15 @@ const services = [
     icon: web,
   },
   {
-    title: 'Swift Developer',
+    title: 'Backend Developer',
     icon: mobile,
   },
   {
-    title: 'Backend Developer',
+    title: 'Robotics',
     icon: backend,
   },
   {
-    title: 'Student',
+    title: 'IT Specialist',
     icon: creator,
   },
 ];
@@ -140,7 +140,7 @@ const experiences = [
     date: 'June 2020 - July 2022',
     points: [
       'Conduct hardware/software repairs and diagnostics on varying electronic devices like computers/smartphones and consoles.',
-      'Check in and assist clients, finding the best possible repair solution to meet their needs.'
+      'Check in and assist clients, finding the best possible repair solution to meet their needs.',
     ],
   },
 ];
@@ -153,51 +153,51 @@ const education = [
     location: 'Boca Raton, FL',
     gpa: '3.58',
     image: fau,
-  }
+  },
 ];
 
 const projects = [
   {
-    name: 'Libster',
+    name: 'Autonomous Power Substation Robot',
     description:
-      'Library browsing application on iOS for storing and reading free books online through a search system, user-friendly UI, and account system.',
+      'Autonomous robot to navigate power substations for FPL and utilize a thermal camera to detect overheating transformers and send data to a monitoring server. I built the frontend and algorithm to extract/send tempurature data from thermal camera using propietary SDK. Built as part of team of 4 for senior design project.',
     tags: [
       {
-        name: 'swift',
+        name: 'python/flask',
         color: 'blue-text-gradient',
       },
       {
-        name: 'xcode',
+        name: 'ros2',
         color: 'green-text-gradient',
       },
-      {
-        name: 'parsedb',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: libster,
-    source_code_link: 'https://github.com/Grant626/Libster',
-  },
-  {
-    name: 'Minesweeper',
-    description:
-      'Fully-functioning clone of the popular game Minesweeper featuring custom board/difficulty specification, random tile generation, and a user-friendly custom UI.',
-    tags: [
       {
         name: 'c++',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'sfml',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'visualstudio',
         color: 'pink-text-gradient',
       },
     ],
-    image: minesweeper,
-    source_code_link: 'https://github.com/Grant626/minesweeper',
+    image: robot,
+    source_code_link: 'https://github.com/Grant626/Temperature-Detection',
+  },
+  {
+    name: 'Natours',
+    description:
+      'Mock tour scheduling site with client facing frontend using HTML/CSS with Pug templates, Javascript and backend API using NodeJS/Express with MondoDB for tour/user-data/authentication. Developed alongside Udemy Node.JS course with additional features',
+    tags: [
+      {
+        name: 'nodejs',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'express',
+        color: 'pink-text-gradient',
+      },
+      {
+        name: 'mongoDB',
+        color: 'blue-text-gradient',
+      },
+    ],
+    image: natours,
+    source_code_link: 'https://github.com/Grant626/natours',
   },
   {
     name: 'Personal Website',
