@@ -21,6 +21,8 @@ import {
   robot,
   fau,
   natours,
+  thewildoasis,
+  odyssey,
 } from '../assets';
 
 export const navLinks = [
@@ -198,6 +200,52 @@ const projects = [
     ],
     image: natours,
     source_code_link: 'https://github.com/Grant626/natours',
+  },
+  {
+    name: 'The Wild Oasis (WIP)',
+    description:
+      'This is a full-stack application build as part of the Ultimate React Course on Udemy. The application is a backend UI for a cabin booking agency to manage cabins, bookings and guests, as well as a user-facing frontend. Utilizes React, React Router, React Query, TailwindCSS, Next.JS, connected to a Supabase backend for data fetching and authentication, and deployed via Netlify.',
+    tags: [
+      {
+        name: 'reactjs/query',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'nextjs',
+        color: 'pink-text-gradient',
+      },
+      {
+        name: 'supabase',
+        color: 'green-text-gradient',
+      },
+    ],
+    image: thewildoasis,
+    source_code_link: 'https://github.com/Grant626/the-wild-oasis',
+  },
+  {
+    name: 'Odyssey (WIP)',
+    description:
+      'This is a full-stack application that allows users travel plan by selecting their destination and dates,  providing preferences for points of interest like the hotel, lunch, activity, etc. Odyssey will then find the most suitable places based on the preferences, utilizing the Yelp Fusion API to find them. The user may also refresh recommendations based on the pre-existing preferences.',
+    tags: [
+      {
+        name: 'reactjs',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'nodejs',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'yelpAPI',
+        color: 'pink-text-gradient',
+      },
+      {
+        name: 'firebase',
+        color: 'orange-text-gradient',
+      },
+    ],
+    image: odyssey,
+    source_code_link: 'https://github.com/Grant626/Odyssey-App',
   },
   {
     name: 'Personal Website',
