@@ -27,8 +27,9 @@ import restech from './company/restech.png';
 import personalpage from './personalpage.png';
 import robot from './robot.jpg';
 import natours from './natours.png';
-import thewildoasis from './the-wild-oasis.png';
 import odyssey from './odyssey.png';
+import thewildoasis from './the-wild-oasis.png';
+import thewildoasiswebsite from './the-wild-oasis-wesbite.png';
 
 import fau from './fau.png';
 
@@ -60,6 +61,7 @@ export {
   robot,
   fau,
   natours,
-  thewildoasis,
   odyssey,
+  thewildoasis,
+  thewildoasiswebsite,
 };

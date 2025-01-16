@@ -23,6 +23,7 @@ import {
   natours,
   thewildoasis,
   odyssey,
+  thewildoasiswebsite,
 } from '../assets';
 
 export const navLinks = [
@@ -181,6 +182,48 @@ const projects = [
     source_code_link: 'https://github.com/Grant626/Temperature-Detection',
   },
   {
+    name: 'The Wild Oasis Frontend',
+    description:
+      'This is a full-stack application build as part of the Ultimate React Course on Udemy. The application is a frontend, customer-facing UI for cabin booking and cabin information. Utilizes React, Next.JS, NextAuth and TailwindCSS, connected to a Supabase backend for data fetching and authentication, deployed using Vercel.',
+    tags: [
+      {
+        name: 'reactjs',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'nextjs',
+        color: 'pink-text-gradient',
+      },
+      {
+        name: 'supabase',
+        color: 'green-text-gradient',
+      },
+    ],
+    image: thewildoasiswebsite,
+    source_code_link: 'https://github.com/Grant626/the-wild-oasis-website',
+  },
+  {
+    name: 'The Wild Oasis Backend',
+    description:
+      'This is a full-stack application build as part of the Ultimate React Course on Udemy. The application is a backend UI for a cabin booking agency to manage cabins, bookings and guests. Utilizes React, React Router, React Query, TailwindCSS, Next.JS, connected to a Supabase backend for data fetching and authentication, and deployed via Netlify.',
+    tags: [
+      {
+        name: 'reactjs',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'react query',
+        color: 'pink-text-gradient',
+      },
+      {
+        name: 'supabase',
+        color: 'green-text-gradient',
+      },
+    ],
+    image: thewildoasis,
+    source_code_link: 'https://github.com/Grant626/the-wild-oasis',
+  },
+  {
     name: 'Natours',
     description:
       'Mock tour scheduling site with client facing frontend using HTML/CSS with Pug templates, Javascript and backend API using NodeJS/Express with MondoDB for tour/user-data/authentication. Developed alongside Udemy Node.JS course with additional features',
@@ -200,27 +243,6 @@ const projects = [
     ],
     image: natours,
     source_code_link: 'https://github.com/Grant626/natours',
-  },
-  {
-    name: 'The Wild Oasis (WIP)',
-    description:
-      'This is a full-stack application build as part of the Ultimate React Course on Udemy. The application is a backend UI for a cabin booking agency to manage cabins, bookings and guests, as well as a user-facing frontend. Utilizes React, React Router, React Query, TailwindCSS, Next.JS, connected to a Supabase backend for data fetching and authentication, and deployed via Netlify.',
-    tags: [
-      {
-        name: 'reactjs/query',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'nextjs',
-        color: 'pink-text-gradient',
-      },
-      {
-        name: 'supabase',
-        color: 'green-text-gradient',
-      },
-    ],
-    image: thewildoasis,
-    source_code_link: 'https://github.com/Grant626/the-wild-oasis',
   },
   {
     name: 'Odyssey (WIP)',
